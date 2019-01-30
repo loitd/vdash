@@ -26,6 +26,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
+/* Declare GLOBAL new VUE */
 new Vue({
   el: '#app',             //----->main element in #app
   router,                 //----->inject imported router as a GLOBAL

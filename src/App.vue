@@ -7,7 +7,7 @@
 
 <script>
 export default {            //--->Again,export default to export all tamplate and style out
-  name: 'App'
+  name: 'App'               //--->Name of the exported component
 }
 </script>
 

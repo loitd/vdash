@@ -5,7 +5,7 @@
   "author": "loitd <loitranduc@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --content-base src --inline --progress --config build/webpack.dev.conf.js --hot",
     "start": "npm run dev",
     "build": "node build/build.js"
   },
