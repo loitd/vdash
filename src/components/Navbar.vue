@@ -1,16 +1,9 @@
-<!--
-This template is for demo all things I tended/already integrated into this template
-- Bulma
-- Fontawesome
-template declaration
--->
 <template>
-  <div class="hello">
     <nav class="navbar is-transparent">
       <div class="navbar-brand">
         <a class="navbar-item" href="#">
           <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
-          {{title}}
+          {{navtitle}}
         </a>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
@@ -50,34 +43,18 @@ template declaration
         </div><!-- navbar-end -->
       </div><!-- navbar-menu -->
     </nav><!-- navbar -->
-  </div><!-- hello -->
 </template>
 
 <script>
-export default {                          //--->Again,export default to export all tamplate and style out
-  name: 'HelloWorld',                     //--->Name of the exported component
-  data () {                               //--->Data of the exported component
-    return {
-      title: 'VDash'                      //--->One variable
+export default {
+    name: "navbar",
+    props: ['navtitle'],    //--->Indicate that this prop will be asigned when call component
+    data () {
+        return {}
     }
-  }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  
 </style>
