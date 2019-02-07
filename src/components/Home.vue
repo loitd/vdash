@@ -16,8 +16,8 @@ template declaration
 import Navbar from './Navbar.vue';
 
 export default {                          //--->Again,export default to export all tamplate and style out
-  name: 'Home',                           //--->Name of the exported component
-  components: { Navbar }, 
+  name: 'Home',                           //--->Name of the (this) exported component
+  components: { Navbar },                 //--->Defines using components
   data () {                               //--->Data of the exported component
     return {
       title: 'VDash'                      //--->One variable/prop
