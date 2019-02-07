@@ -1,7 +1,7 @@
 # vdash
-> A Vue.js project also my template for Vue project with demos. Frontend desin will use Vue.js as default. Ths project create a lot of component and use these component to build pages (as distro/designed). So these components are usable and the examples will be available through pages.
-> To run on productions, these pages/component need to be compile/build.
-> Vue provides an official CLI for quickly scaffolding ambitious Single Page Applications. More detail at [here](https://cli.vuejs.org/guide/)
+> A Vue.js project also my template for Vue project with demos. Frontend designed will use Vue.js as default. This project create a lot of component and use these component to build pages (as distro/designed). So these components are usable and the examples will be available through pages.  
+To run on productions, these pages/component need to be compile/build.  
+Vue provides an official CLI for quickly scaffolding ambitious Single Page Applications. More detail at [here](https://cli.vuejs.org/guide/)  
 
 ## Build Setup
 > Install python2 and add execution file to PATH
