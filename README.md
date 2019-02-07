@@ -4,7 +4,7 @@ To run on productions, these pages/component need to be compile/build.
 Vue provides an official CLI for quickly scaffolding ambitious Single Page Applications. More detail at [here](https://cli.vuejs.org/guide/)  
 
 ## Build Setup
-> Install python2 and add execution file to PATH
+> Install python2 and add execution file to PATH  
 > Make sure you got postcss.config.js file with content
 ```javascript
 module.exports = {};

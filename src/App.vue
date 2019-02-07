@@ -11,7 +11,8 @@ export default {            //--->Again,export default to export all tamplate an
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "@/assets/sass/vars.scss";
 /* This style is for the root, without scoped. Lead to a GLOBAL style*/
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -20,5 +21,9 @@ export default {            //--->Again,export default to export all tamplate an
   text-align: center;
   color: #2c3e50;
   /* margin-top: 60px; */
+}
+
+a:hover, a:focus, a:visited, a:active {
+  color: $linksHoverColor !important;
 }
 </style>

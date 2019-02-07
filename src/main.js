@@ -9,15 +9,21 @@ require('./assets/sass/main.scss');
 
 // Font Awesome-related initialization. Importing
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faUser, faSearch, faHome, faHandsHelping, faBell, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faTwitter, faDiscourse } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // Add the specific imported icons
 library.add(faEnvelope)
 library.add(faUser)
+library.add(faSearch)
+library.add(faHome)
+library.add(faHandsHelping)
+library.add(faBell)
+library.add(faSignOutAlt)
 library.add(faFacebook)
 library.add(faTwitter)
+library.add(faDiscourse)
 
 // Enable the FontAwesomeIcon COMPONENT globally
 Vue.component('font-awesome-icon', FontAwesomeIcon)
